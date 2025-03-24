@@ -1,0 +1,15 @@
+Spark UI to narzędzie do monitorowania aplikacji Spark, które pozwala na sprawdzenie, jak działa nasz kod. Składa się z kilku sekcji:
+
+Jobs: Pokazuje wszystkie zadania wykonane w aplikacji. Możemy zobaczyć czas trwania, liczbę etapów oraz ile danych zostało przetworzonych
+
+Stages: Etapy dzielą zadania na mniejsze części, które są wykonywane równolegle. W tej sekcji widać, jak długo trwały poszczególne etapy i ile zadań je tworzyło
+
+Tasks: To szczegóły dotyczące zadań w ramach etapu, takie jak czas wykonania i błędy
+
+Storage: Pokazuje, jakie dane są przechowywane w pamięci i ile pamięci jest używane
+
+Environment: W tej sekcji znajdziesz informacje o wersji Sparka, bibliotekach, ustawieniach oraz klastrze
+
+Executors: Monitoruje węzły, które przetwarzają dane. Pokazuje, jak są obciążone, ile pamięci używają i ile zadań wykonały
+
+SQL: Jeśli używasz zapytań SQL, ta sekcja pokazuje ich plany wykonania i wydajność
